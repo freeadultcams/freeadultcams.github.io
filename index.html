@@ -1,3 +1,114 @@
-hello
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coding an Adult Cam Link Hub on GitHub Pages</title>
+  <meta name="description" content="A policy safe guide to building a fast, privacy respecting cam affiliate hub on GitHub Pages with tips on SEO, tracking, and UX."/>
+  <meta name="robots" content="index,follow"/>
+  <style>
+    :root{
+      --bg:#0f1220;--bg2:#12162a;--card:#161b31;--ink:#e9edf6;--muted:#a6b0c3;
+      --brand:#6aa9ff;--brand2:#a06bff;--ok:#00d38c;--ring:#78a7ff
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:radial-gradient(120% 120% at 70% 10%,#1a2042 0%,#0f1220 60%);
+         color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif}
+    header,main,footer{max-width:960px;margin:0 auto;padding:18px}
+    .hero{padding:34px 18px 8px}
+    h1{font-size:clamp(28px,3.6vw,40px);margin:0 0 8px;letter-spacing:.2px}
+    p.sub{color:var(--muted);margin:0}
+    .card{background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid rgba(255,255,255,.08);
+          border-radius:16px;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.25);margin:18px 0}
+    a{color:var(--brand)} a:hover{opacity:.95}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .cta{display:inline-flex;align-items:center;gap:8px;justify-content:center;padding:10px 12px;border-radius:10px;color:#fff;text-decoration:none;font-weight:800;letter-spacing:.2px;background:linear-gradient(45deg,var(--brand),var(--brand2));box-shadow:0 8px 22px rgba(80,120,255,.35)}
+    .cta:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(80,120,255,.45)}
+    code,pre{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:8px}
+    code{padding:0 .25em}
+    pre{padding:10px;overflow:auto}
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:3px 10px;font-weight:700;font-size:12px;color:#eaf4ff;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,0))}
+    footer{color:var(--muted);font-size:13px;margin:10px auto 30px}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Build a Policy Safe Cam Affiliate Hub on GitHub Pages</h1>
+    <p class="sub">Text only, non explicit content that links out to live platforms, with clean SEO, fast performance, and privacy respecting tracking.</p>
+  </header>
 
-<a href="https://test.com">this is a tst</a>
+  <main>
+    <article class="card">
+      <p><span class="pill">Why GitHub Pages?</span></p>
+      <p>
+        GitHub Pages is perfect for a lightweight cam affiliate hub because it’s <strong>fast, free, and versioned</strong>. The catch: you must keep it
+        <strong>non explicit</strong>. That means no adult images or video thumbnails here, just helpful text, platform overviews, and outbound links marked
+        <code>rel="sponsored nofollow"</code>. Use this site as a trusted <em>staging area</em> that presells the click, then send visitors to the official platform for the live experience.
+      </p>
+      <p>
+        Treat your landing like a developer README for newcomers: explain how live rooms work, how tipping and private shows are billed, and how to stay safe online. The tone should be informative, respectful, and concise.
+      </p>
+    </article>
+
+    <article class="card">
+      <p><span class="pill">Structure & SEO</span></p>
+      <p>
+        Keep one clear <strong>topic per page</strong>, a descriptive <code>&lt;title&gt;</code>, and a short <code>meta description</code>. Use headings to organize sections such as
+        <em>How it works</em>, <em>Safety</em>, and <em>Featured categories</em>. Avoid doorway pages or thin lists of links, write 500-700 words that genuinely help a first time visitor understand the entire ecosystem.
+        Link internally where relevant and externally to all of the platforms you support.
+      </p>
+      <p>
+        For outbound links, label intent up front (e.g., “Free rooms, optional tips; opens in a new tab”). Add <code>target="_blank"</code> and <code>rel="sponsored nofollow noopener"</code> to every affiliate link. If you use subIDs, always keep them anonymous (no PII).
+      </p>
+    </article>
+
+    <article class="card">
+      <p><span class="pill">Viewers, Tracking & Privacy</span></p>
+      <p>
+        Viewer counts and CTRs don not require invasive tracking. On a static Pages site, skip third party pixels and instead use <strong>first party redirects</strong> on your main domain for analytics (e.g., <code>/go/stripchat?sub=gh-card</code> → 302 to the platform). If you must tag here, add a simple query string that your downstream analytics records. Respect users with a clear disclosure and avoid fingerprinting.
+      </p>
+      <p>
+        Focus on <em>quality clicks</em>: fast paint, accessible buttons, and copy that sets the right expectation. When visitors understand what happens after the click, conversion improves, even without heavy scripts.
+      </p>
+      <pre><code>&lt;a href="https://whatcams.com" target="_blank" rel="sponsored nofollow noopener"&gt;Open platform&lt;/a&gt;</code></pre>
+    </article>
+
+    <section class="grid" aria-label="Example outbound links (non‑explicit)">
+      <article class="card">
+        <h2 style="margin:.1rem 0 .5rem">Example links</h2>
+        <p class="muted">These open official platforms; current page hosts no explicit media.</p>
+        <ul>
+          <li><a class="cta" href="https://whatcams.com" target="_blank">free nude cams</a></li>
+          <li><a class="cta" href="https://camzora.com" target="_blank">live adult cams</a></li>
+          <li><a class="cta" href="https://thatcamgirl.com" target="_blank">ThatCamGirl</a></li>
+        </ul>
+        <div class="grid">
+          <a class="cta" href="https://whatcams.com/girls/indian/" target="_blank">adult Indian cam girls</a>
+          <a class="cta" href="https://whatcams.com/girls/asian/" target="_blank">Asian cam girls</a>
+          <a class="cta" href="https://whatcams.com/couples/" target="_blank">adult couples cams</a>
+          <a class="cta" href="https://whatcams.com/trans/" target="_blank">adult trans cams</a>
+          <a class="cta" href="https://whatcams.com/guys/" target="_blank">gay cams</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 style="margin:.1rem 0 .5rem">Safety & Transparency</h2>
+        <p>
+          Don not share personal info in public chat. Use strong passwords and enable 2FA on destination platforms. We disclose that links may be monetized and that payments happen only on the official sites. This repository contains text and code only; for removal requests, open an Issue.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> — Educational content. Outbound links open in a new tab.</p>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    for (const a of document.querySelectorAll('a[target="_blank"]')) { a.rel = 'noopener'; }
+  </script>
+</body>
+</html>
